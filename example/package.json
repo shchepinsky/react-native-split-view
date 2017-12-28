@@ -1,0 +1,25 @@
+{
+  "name": "SplitViewExample",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest",
+    "reinstall": "rm -Rf yarn.lock && rm -Rf package-lock.json && rm -Rf ios/build && rm -Rf android/build && rm -Rf android/app/build && rm -Rf node_modules && npm i"
+  },
+  "dependencies": {
+    "prop-types": "^15.6.0",
+    "react": "16.0.0",
+    "react-native": "0.51.0",
+    "react-native-split-view": "file:../"
+  },
+  "devDependencies": {
+    "babel-jest": "22.0.4",
+    "babel-preset-react-native": "4.0.0",
+    "jest": "22.0.4",
+    "react-test-renderer": "16.0.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}

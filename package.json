@@ -1,0 +1,41 @@
+{
+  "name": "react-native-split-view",
+  "version": "1.0.0",
+  "author": "Dmitry Shchepinsky",
+  "main": "src/index.js",
+  "description": "A SplitView component with variable width columns/rows.",
+  "contributors": [
+    {
+      "name": "Dmitry Shchepinsky",
+      "email": "dima.shchepinsky@gmail.com"
+    }
+  ],
+  "scripts": {
+    "lint": "eslint src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shchepinsky/react-native-split-view.git"
+  },
+  "keywords": [
+    "react-native",
+    "react-native-component",
+    "split-view"
+  ],
+  "dependencies": {},
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+  "devDependencies": {
+    "jest": "22.0.4",
+    "react": "16.0.0",
+    "react-test-renderer": "16.0.0"
+  },
+  "homepage": "https://github.com/shchepinsky/react-native-split-view",
+  "bugs": {
+    "url": "https://github.com/shchepinsky/react-native-split-view/issues"
+  },
+  "private": false,
+  "license": "MIT"
+}
